@@ -1,128 +1,1802 @@
 [
-  {
-    "name": "Paraben",
-    "riskLevel": "High",
-    "category": "Cosmetic",
-    "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
-    "description_en": "May cause hormonal disorders and cancer."
-  },
-  {
-    "name": "Sodium Lauryl Sulfate",
-    "riskLevel": "Medium",
-    "category": "Cosmetic",
-    "description_tr": "Cilt tahrişine neden olabilir.",
-    "description_en": "May cause skin irritation."
-  },
-  {
-    "name": "Aluminium",
-    "riskLevel": "High",
-    "category": "Cosmetic",
-    "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
-    "description_en": "May negatively affect the nervous system."
-  },
-  {
-    "name": "Formaldehyde",
-    "riskLevel": "High",
-    "category": "Cleaning",
-    "description_tr": "Kanserojen olduğu bilinmektedir.",
-    "description_en": "Known to be carcinogenic."
-  },
-  {
-    "name": "Triclosan",
-    "riskLevel": "High",
-    "category": "Cosmetic",
-    "description_tr": "Hormonal dengesizliklere neden olabilir.",
-    "description_en": "May cause hormonal imbalances."
-  },
-  {
-    "name": "E102 (Tartrazin)",
-    "riskLevel": "Medium",
-    "category": "Food",
-    "description_tr": "Alerjik reaksiyonlara neden olabilir.",
-    "description_en": "Can cause allergic reactions."
-  },
-  {
-    "name": "E124 (Ponceau 4R)",
-    "riskLevel": "High",
-    "category": "Food",
-    "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
-    "description_en": "May cause hyperactivity and allergies."
-  },
-  {
-    "name": "BHA (Butylated hydroxyanisole)",
-    "riskLevel": "High",
-    "category": "Food",
-    "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
-    "description_en": "An additive with potential cancer risk."
-  },
-  {
-    "name": "Propylene Glycol",
-    "riskLevel": "Medium",
-    "category": "Cosmetic",
-    "description_tr": "Cilt hassasiyetine neden olabilir.",
-    "description_en": "May cause skin sensitivity."
-  },
-  {
-    "name": "Polyethylene Glycol (PEG)",
-    "riskLevel": "Medium",
-    "category": "Cosmetic",
-    "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
-    "description_en": "Increases skin absorption, may allow harmful substances to pass through."
-  },
-  {
-    "name": "Benzalkonium Chloride",
-    "riskLevel": "High",
-    "category": "Cleaning",
-    "description_tr": "Solunum yollarını tahriş edebilir.",
-    "description_en": "Can irritate respiratory system."
-  },
-  {
-    "name": "E250 (Sodyum Nitrit)",
-    "riskLevel": "High",
-    "category": "Food",
-    "description_tr": "Nitrozaminlerle birleştiğinde kanserojen olabilir.",
-    "description_en": "Can be carcinogenic when combined with nitrosamines."
-  },
-  {
-    "name": "E951 (Aspartam)",
-    "riskLevel": "Medium",
-    "category": "Food",
-    "description_tr": "Bazı bireylerde baş ağrısı ve baş dönmesi yapabilir.",
-    "description_en": "May cause headache and dizziness in some individuals."
-  },
-  {
-    "name": "Mineral Oil",
-    "riskLevel": "Low",
-    "category": "Cosmetic",
-    "description_tr": "Gözenekleri tıkayabilir.",
-    "description_en": "May clog pores."
-  },
-  {
-    "name": "Diethanolamine (DEA)",
-    "riskLevel": "High",
-    "category": "Cosmetic",
-    "description_tr": "Kanserojen olabileceğine dair çalışmalar vardır.",
-    "description_en": "Studies suggest it may be carcinogenic."
-  },
-  {
-    "name": "Toluene",
-    "riskLevel": "High",
-    "category": "Cosmetic",
-    "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
-    "description_en": "May harm the nervous system."
-  },
-  {
-    "name": "E220 (Sülfit)",
-    "riskLevel": "Medium",
-    "category": "Food",
-    "description_tr": "Alerjik reaksiyonlara ve astıma neden olabilir.",
-    "description_en": "May cause allergic reactions and asthma."
-  },
-  {
-    "name": "E171 (Titanium Dioxide)",
-    "riskLevel": "High",
-    "category": "Food",
-    "description_tr": "Yeni araştırmalar kanserojen olabileceğini göstermektedir.",
-    "description_en": "Recent research suggests it may be carcinogenic."
-  }
+    {
+        "name": "Paraben Variant 1",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-08",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 2",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2026-03-10",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 3",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-06-04",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 4",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-13",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 5",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-06",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 6",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-05",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 7",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-08",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "Aluminium Variant 8",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-10",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Formaldehyde Variant 9",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-01",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Formaldehyde Variant 10",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-03",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Paraben Variant 11",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-22",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Formaldehyde Variant 12",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2026-02-10",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 13",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-15",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Aluminium Variant 14",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-01",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Paraben Variant 15",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2026-03-28",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Aluminium Variant 16",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-22",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 17",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2026-03-26",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Triclosan Variant 18",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-08-30",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 19",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-08-04",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 20",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-05",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 21",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-07-17",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Triclosan Variant 22",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-16",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 23",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-28",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 24",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-31",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Formaldehyde Variant 25",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-28",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 26",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2026-03-21",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 27",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-10",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "Formaldehyde Variant 28",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2026-03-08",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Aluminium Variant 29",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-20",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 30",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2026-01-04",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Triclosan Variant 31",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-13",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "Aluminium Variant 32",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-09-01",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 33",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2026-03-31",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Paraben Variant 34",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-30",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Triclosan Variant 35",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-09",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 36",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-22",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 37",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-07-21",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 38",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-05",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Paraben Variant 39",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-10",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 40",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-11-27",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Triclosan Variant 41",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2026-02-16",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "Propylene Glycol Variant 42",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-08-19",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 43",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2026-01-02",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Aluminium Variant 44",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-09-04",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 45",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-11-05",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Triclosan Variant 46",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-23",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 47",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-18",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Propylene Glycol Variant 48",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2026-03-30",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Paraben Variant 49",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2026-04-22",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Propylene Glycol Variant 50",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-07",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Triclosan Variant 51",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-08",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 52",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-27",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 53",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-08-26",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 54",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-10",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 55",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-07",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Formaldehyde Variant 56",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-18",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Aluminium Variant 57",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-21",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 58",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2026-04-13",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 59",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-11-13",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Formaldehyde Variant 60",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2026-04-03",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Paraben Variant 61",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-31",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 62",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2026-01-21",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 63",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-05",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 64",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-04",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 65",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-28",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Paraben Variant 66",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2026-02-16",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 67",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-13",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 68",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-10-08",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 69",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-24",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 70",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-18",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Formaldehyde Variant 71",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2026-02-18",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "Aluminium Variant 72",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2026-04-11",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Triclosan Variant 73",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-23",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 74",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-06-05",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Paraben Variant 75",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-10",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 76",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-31",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 77",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-08-07",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Propylene Glycol Variant 78",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-22",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Propylene Glycol Variant 79",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-09",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 80",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-22",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 81",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2026-02-26",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 82",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-11-27",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Aluminium Variant 83",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2026-04-06",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 84",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-23",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 85",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-06",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Aluminium Variant 86",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-16",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Triclosan Variant 87",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-09-21",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 88",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2026-04-05",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 89",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-07",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Formaldehyde Variant 90",
+        "riskLevel": "High",
+        "category": "Cleaning",
+        "description_tr": "Kanserojen olduğu bilinmektedir.",
+        "description_en": "Known to be carcinogenic.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-08",
+        "alternatives": [
+            "Ethanol",
+            "Isopropyl Alcohol"
+        ],
+        "usage": "Used in cleaning products, disinfectants.",
+        "allergic_risk": "May cause respiratory irritation and skin burns."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 91",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-08-31",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 92",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-04-30",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 93",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-07-28",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 94",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-09",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 95",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-09-20",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 96",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-09-18",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 97",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-31",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 98",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-05-27",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 99",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2026-02-13",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Propylene Glycol Variant 100",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-09-03",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Paraben Variant 101",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+        "description_en": "May cause hormonal disorders and cancer.",
+        "skin_contact": true,
+        "expiry_date": "2025-08-27",
+        "alternatives": [
+            "Phenoxyethanol",
+            "Ethylhexylglycerin"
+        ],
+        "usage": "Used in cosmetics as a preservative.",
+        "allergic_risk": "May cause skin irritation and allergic reactions."
+    },
+    {
+        "name": "Aluminium Variant 102",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-13",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 103",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-11-29",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 104",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-11-24",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 105",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-12-03",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 106",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-08-01",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "Triclosan Variant 107",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2025-05-22",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "Propylene Glycol Variant 108",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-07",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Propylene Glycol Variant 109",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt hassasiyetine neden olabilir.",
+        "description_en": "May cause skin sensitivity.",
+        "skin_contact": true,
+        "expiry_date": "2026-03-18",
+        "alternatives": [
+            "Glycerin",
+            "Butylene Glycol"
+        ],
+        "usage": "Used as a humectant in skincare products.",
+        "allergic_risk": "Can cause skin irritation and rash."
+    },
+    {
+        "name": "Sodium Lauryl Sulfate Variant 110",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt tahrişine neden olabilir.",
+        "description_en": "May cause skin irritation.",
+        "skin_contact": true,
+        "expiry_date": "2025-10-29",
+        "alternatives": [
+            "Sodium Coco-Sulfate",
+            "Cocamidopropyl Betaine"
+        ],
+        "usage": "Commonly used in shampoos, body washes.",
+        "allergic_risk": "Possible mild skin irritation."
+    },
+    {
+        "name": "Triclosan Variant 111",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Hormonal dengesizliklere neden olabilir.",
+        "description_en": "May cause hormonal imbalances.",
+        "skin_contact": true,
+        "expiry_date": "2026-04-10",
+        "alternatives": [
+            "Tea Tree Oil",
+            "Eucalyptus Oil"
+        ],
+        "usage": "Used in antibacterial soaps, deodorants.",
+        "allergic_risk": "Can cause skin dryness and irritation."
+    },
+    {
+        "name": "BHA (Butylated hydroxyanisole) Variant 112",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+        "description_en": "An additive with potential cancer risk.",
+        "skin_contact": false,
+        "expiry_date": "2025-07-21",
+        "alternatives": [
+            "Vitamin E",
+            "Rosemary Extract"
+        ],
+        "usage": "Used as a preservative in packaged food.",
+        "allergic_risk": "Can cause allergic reactions in sensitive individuals."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 113",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-06-28",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 114",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-08-20",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 115",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-09-04",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    },
+    {
+        "name": "Aluminium Variant 116",
+        "riskLevel": "High",
+        "category": "Cosmetic",
+        "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+        "description_en": "May negatively affect the nervous system.",
+        "skin_contact": true,
+        "expiry_date": "2026-01-15",
+        "alternatives": [
+            "Potassium Alum",
+            "Magnesium Hydroxide"
+        ],
+        "usage": "Found in deodorants, antiperspirants.",
+        "allergic_risk": "Can cause skin irritation and swelling."
+    },
+    {
+        "name": "Polyethylene Glycol (PEG) Variant 117",
+        "riskLevel": "Medium",
+        "category": "Cosmetic",
+        "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+        "description_en": "Increases skin absorption, may allow harmful substances to pass through.",
+        "skin_contact": true,
+        "expiry_date": "2025-07-07",
+        "alternatives": [
+            "Caprylyl Glycol",
+            "Butylene Glycol"
+        ],
+        "usage": "Used in creams and lotions for better texture.",
+        "allergic_risk": "Possible allergic reactions on sensitive skin."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 118",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-13",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E124 (Ponceau 4R) Variant 119",
+        "riskLevel": "High",
+        "category": "Food",
+        "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+        "description_en": "May cause hyperactivity and allergies.",
+        "skin_contact": false,
+        "expiry_date": "2026-03-15",
+        "alternatives": [
+            "Caramel Color",
+            "Beetroot Powder"
+        ],
+        "usage": "Used as a red food dye.",
+        "allergic_risk": "Can trigger asthma and cause hyperactivity in children."
+    },
+    {
+        "name": "E102 (Tartrazin) Variant 120",
+        "riskLevel": "Medium",
+        "category": "Food",
+        "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+        "description_en": "Can cause allergic reactions.",
+        "skin_contact": false,
+        "expiry_date": "2025-12-15",
+        "alternatives": [
+            "Beetroot Powder",
+            "Spinach Powder"
+        ],
+        "usage": "Used as a food coloring agent.",
+        "allergic_risk": "May trigger allergic reactions, especially in asthmatics."
+    }
 ]
