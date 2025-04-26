@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Paraben",
+    "riskLevel": "High",
+    "category": "Cosmetic",
+    "description_tr": "Hormonal bozukluklara ve kansere yol açabilir.",
+    "description_en": "May cause hormonal disorders and cancer."
+  },
+  {
+    "name": "Sodium Lauryl Sulfate",
+    "riskLevel": "Medium",
+    "category": "Cosmetic",
+    "description_tr": "Cilt tahrişine neden olabilir.",
+    "description_en": "May cause skin irritation."
+  },
+  {
+    "name": "Aluminium",
+    "riskLevel": "High",
+    "category": "Cosmetic",
+    "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+    "description_en": "May negatively affect the nervous system."
+  },
+  {
+    "name": "Formaldehyde",
+    "riskLevel": "High",
+    "category": "Cleaning",
+    "description_tr": "Kanserojen olduğu bilinmektedir.",
+    "description_en": "Known to be carcinogenic."
+  },
+  {
+    "name": "Triclosan",
+    "riskLevel": "High",
+    "category": "Cosmetic",
+    "description_tr": "Hormonal dengesizliklere neden olabilir.",
+    "description_en": "May cause hormonal imbalances."
+  },
+  {
+    "name": "E102 (Tartrazin)",
+    "riskLevel": "Medium",
+    "category": "Food",
+    "description_tr": "Alerjik reaksiyonlara neden olabilir.",
+    "description_en": "Can cause allergic reactions."
+  },
+  {
+    "name": "E124 (Ponceau 4R)",
+    "riskLevel": "High",
+    "category": "Food",
+    "description_tr": "Hiperaktiviteye ve alerjiye yol açabilir.",
+    "description_en": "May cause hyperactivity and allergies."
+  },
+  {
+    "name": "BHA (Butylated hydroxyanisole)",
+    "riskLevel": "High",
+    "category": "Food",
+    "description_tr": "Kanser riski taşıyan bir katkı maddesidir.",
+    "description_en": "An additive with potential cancer risk."
+  },
+  {
+    "name": "Propylene Glycol",
+    "riskLevel": "Medium",
+    "category": "Cosmetic",
+    "description_tr": "Cilt hassasiyetine neden olabilir.",
+    "description_en": "May cause skin sensitivity."
+  },
+  {
+    "name": "Polyethylene Glycol (PEG)",
+    "riskLevel": "Medium",
+    "category": "Cosmetic",
+    "description_tr": "Cilt emilimini artırır, zararlı maddelerin geçişini kolaylaştırabilir.",
+    "description_en": "Increases skin absorption, may allow harmful substances to pass through."
+  },
+  {
+    "name": "Benzalkonium Chloride",
+    "riskLevel": "High",
+    "category": "Cleaning",
+    "description_tr": "Solunum yollarını tahriş edebilir.",
+    "description_en": "Can irritate respiratory system."
+  },
+  {
+    "name": "E250 (Sodyum Nitrit)",
+    "riskLevel": "High",
+    "category": "Food",
+    "description_tr": "Nitrozaminlerle birleştiğinde kanserojen olabilir.",
+    "description_en": "Can be carcinogenic when combined with nitrosamines."
+  },
+  {
+    "name": "E951 (Aspartam)",
+    "riskLevel": "Medium",
+    "category": "Food",
+    "description_tr": "Bazı bireylerde baş ağrısı ve baş dönmesi yapabilir.",
+    "description_en": "May cause headache and dizziness in some individuals."
+  },
+  {
+    "name": "Mineral Oil",
+    "riskLevel": "Low",
+    "category": "Cosmetic",
+    "description_tr": "Gözenekleri tıkayabilir.",
+    "description_en": "May clog pores."
+  },
+  {
+    "name": "Diethanolamine (DEA)",
+    "riskLevel": "High",
+    "category": "Cosmetic",
+    "description_tr": "Kanserojen olabileceğine dair çalışmalar vardır.",
+    "description_en": "Studies suggest it may be carcinogenic."
+  },
+  {
+    "name": "Toluene",
+    "riskLevel": "High",
+    "category": "Cosmetic",
+    "description_tr": "Sinir sistemi üzerinde zararlı etkileri olabilir.",
+    "description_en": "May harm the nervous system."
+  },
+  {
+    "name": "E220 (Sülfit)",
+    "riskLevel": "Medium",
+    "category": "Food",
+    "description_tr": "Alerjik reaksiyonlara ve astıma neden olabilir.",
+    "description_en": "May cause allergic reactions and asthma."
+  },
+  {
+    "name": "E171 (Titanium Dioxide)",
+    "riskLevel": "High",
+    "category": "Food",
+    "description_tr": "Yeni araştırmalar kanserojen olabileceğini göstermektedir.",
+    "description_en": "Recent research suggests it may be carcinogenic."
+  }
+]
